@@ -75,14 +75,14 @@ switch ($_GET['showcase']) {
         ];
 
         $arr2 = [
-                new Item(123, 'jora', 'bespolezniy', 'trash', 'epic', 'gacu', 613, 'dollar.jpg'),
-                new Item(123, 'jora', 'bespolezniy', 'trash', 'epic', 'gacu', 613, 'dollar.jpg'),
-                new Item(123, 'jora', 'bespolezniy', 'trash', 'epic', 'gacu', 613, 'dollar.jpg'),
-                new Item(123, 'jora', 'bespolezniy', 'trash', 'epic', 'gacu', 613, 'dollar.jpg'),
-                new Item(123, 'jora', 'bespolezniy', 'trash', 'epic', 'gacu', 613, 'dollar.jpg'),
-                new Item(123, 'jora', 'bespolezniy', 'trash', 'epic', 'gacu', 613, 'dollar.jpg'),
-                new Item(123, 'jora', 'bespolezniy', 'trash', 'epic', 'gacu', 613, 'dollar.jpg'),
-                new Item(123, 'jora', 'bespolezniy', 'trash', 'epic', 'gacu', 613, 'dollar.jpg'),
+                new Item(123, 'jora', 'bespolezniy', 'trash', 'epich', 'gacu', 613, 'dollar.jpg'),
+                new Item(123, 'jora', 'bespolezniy', 'qwerty', 'epidc', 'gacu', 615, 'dollar.jpg'),
+                new Item(123, 'jora', 'bespolezniy', 'qwert', 'epifc', 'gacu', 616, 'dollar.jpg'),
+                new Item(123, 'jora', 'bespolezniy', 'qwer', 'epsic', 'gacu', 617, 'dollar.jpg'),
+                new Item(123, 'jora', 'bespolezniy', 'qwe', 'epidc', 'gacu', 619, 'dollar.jpg'),
+                new Item(123, 'jora', 'bespolezniy', 'qwery', 'epsic', 'gacu', 610, 'dollar.jpg'),
+                new Item(123, 'jora', 'bespolezniy', 'qwerty', 'epigc', 'gacu', 612, 'dollar.jpg'),
+                new Item(123, 'jora', 'bespolezniy', 'qerty', 'epeic', 'gacu', 611, 'dollar.jpg'),
             ];
 
         echo json_encode($arr2);
