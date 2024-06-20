@@ -82,7 +82,7 @@ switch ($_GET['showcase']) {
                 new Item(123, 'jora', 'bespolezniy', 'trash', 'epic', 'gacu', 613),
                 new Item(123, 'jora', 'bespolezniy', 'trash', 'epic', 'gacu', 613),
             ];
-        ]
+            
         echo json_encode($arr2);
         break;
     
