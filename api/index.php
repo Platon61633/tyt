@@ -1,3 +1,13 @@
 <?php
 
-phpinfo();
+$method = $_SERVER['REQUEST_METHOD'];
+
+switch ($_GET['showcase']) {
+    case 'key':
+        echo 'gg';
+        break;
+    
+    default:
+        echo 'dead';
+        break;
+}
