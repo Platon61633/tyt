@@ -15,8 +15,9 @@ switch ($_GET['showcase']) {
             public $brand;
             public $country;
             public $price;
+            public $img;
 
-            function __construct($id, $name, $desc, $type, $brand, $country, $price) {
+            function __construct($id, $name, $desc, $type, $brand, $country, $price, $img) {
                 $this ->id = $id;
                 $this ->name = $name;
                 $this ->desc = $desc;
@@ -24,6 +25,7 @@ switch ($_GET['showcase']) {
                 $this ->brand = $brand;
                 $this ->country = $country;
                 $this ->price = $price;
+                $this ->img = $img;
             }
         }
         
@@ -82,7 +84,7 @@ switch ($_GET['showcase']) {
                 new Item(123, 'jora', 'bespolezniy', 'trash', 'epic', 'gacu', 613),
                 new Item(123, 'jora', 'bespolezniy', 'trash', 'epic', 'gacu', 613),
             ];
-            
+
         echo json_encode($arr2);
         break;
     
