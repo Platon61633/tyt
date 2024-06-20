@@ -6,7 +6,48 @@ $method = $_SERVER['REQUEST_METHOD'];
 
 switch ($_GET['showcase']) {
     case 'key':
-        echo 'gg';
+        $arr = [
+            'id' => 123,
+            'name' => 'jora',
+            'desc' => 'bespolezniy',
+            'type' => 'trash',
+            'brand' => 'epic',
+            'country' => 'gacu',
+            'price' => 613,
+            'id' => 123,
+            'name' => 'jora',
+            'desc' => 'bespolezniy',
+            'type' => 'trash',
+            'brand' => 'epic',
+            'country' => 'gacu',
+            'id' => 123,
+            'name' => 'jora',
+            'desc' => 'bespolezniy',
+            'type' => 'trash',
+            'brand' => 'epic',
+            'country' => 'gacu',
+            'price' => 613,
+            'id' => 123,
+            'name' => 'jora',
+            'desc' => 'bespolezniy',
+            'type' => 'trash',
+            'brand' => 'epic',
+            'country' => 'gacu',
+            'id' => 123,
+            'name' => 'jora',
+            'desc' => 'bespolezniy',
+            'type' => 'trash',
+            'brand' => 'epic',
+            'country' => 'gacu',
+            'price' => 613,
+            'id' => 123,
+            'name' => 'jora',
+            'desc' => 'bespolezniy',
+            'type' => 'trash',
+            'brand' => 'epic',
+            'country' => 'gacu',
+        ];
+        echo json_encode($arr);
         break;
     
     default:
