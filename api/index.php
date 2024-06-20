@@ -13,3 +13,5 @@ switch ($_GET['showcase']) {
         echo 'dead';
         break;
 }
+
+?>
