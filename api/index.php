@@ -72,6 +72,20 @@ switch ($_GET['showcase']) {
             'brand' => 'epic',
             'country' => 'gacu',
             'price' =>812],
+            ['id' => 123,
+            'name' => 'jora',
+            'desc' => 'bespolezniy',
+            'type' => 'trash',
+            'brand' => 'epic',
+            'country' => 'gacu',
+            'price' =>54862],
+            ['id' => 123,
+            'name' => 'jora',
+            'desc' => 'bespolezniy',
+            'type' => 'trash',
+            'brand' => 'epic',
+            'country' => 'gacu',
+            'price' =>30000]
         ];
 
         $arr2 = [
