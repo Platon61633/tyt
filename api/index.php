@@ -97,8 +97,8 @@ switch ($_GET['showcase']) {
                 new Item(123, 'jora', 'bespolezniy', 'qwery', 'epsic', 'gacu', 610, 'dollar.jpg'),
                 new Item(123, 'jora', 'bespolezniy', 'qwerty', 'epigc', 'gacu', 612, 'dollar.jpg'),
                 new Item(123, 'jora', 'bespolezniy', 'qerty', 'epeic', 'gacu', 611, 'dollar.jpg'),
-                new Item(321, 'gg', 'horosh', 'ref', 'gh', 'topchik', 'fartu', 31000, 'dollar.jpg'),
-                new Item(321, 'gg', 'horosh', 'ref', 'gh', 'topchik', 'fartu', 50100, 'dollar.jpg'),
+                new Item(321, 'gg', 'horosh', 'gh', 'topchik', 'fartu', 31000, 'dollar.jpg'),
+                new Item(321, 'gg', 'horosh', 'gh', 'topchik', 'fartu', 50100, 'dollar.jpg'),
 
             ];
 
